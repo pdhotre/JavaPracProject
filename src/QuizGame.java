@@ -32,7 +32,7 @@ public class QuizGame {
             for(String option:options[i]){
                 System.out.println(option);
             }
-
+            System.out.println("**********************");
             System.out.print("Enter your guess: ");
             guess = scanner.nextInt();
 
